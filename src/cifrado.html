@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="logo">
+            <h1 class="bordeTexto">SafePass</h1>
+        </div>
+
+        <div class="cifrado">
+            <h2>CIFRA TU CLAVE</h2>
+            <!-- combo box para seleccionar número de desplazamientos para cifrar -->
+            <div>
+                <p class="textComboBox">Indica número de desplazamiento
+                    <div class="comboBox">
+                        <input type="number" id="desplazamiento" min="1" max="10" placeholder="0">
+                    </div>
+                </p>
+            </div>
+
+            <!-- Text area para ingresar la clave a cifrar  -->
+            <div>
+                <p class="tittleArea">
+                    Ingresa tu clave a cifrar
+                </p>
+
+                <textarea name="" id="info1" cols="50" rows="3"></textarea>
+
+                <!-- <p class="tittleArea">
+                    Clave cifrada
+                </p> -->
+                <!-- <textarea name="" id="info2" cols="50" rows="3"></textarea> -->
+                <div class="boxMessage">
+
+                    <span class="textoCifrado" id="info2"></span>
+                    
+                </div>
+
+            </div><br>
+
+            <!-- botones -->
+            <div class="buttonsCifrar">
+
+                <input class="buttonCif hover" type="button" name="" id="cifrar" value="CIFRAR">
+
+                <input class="buttonCif hover" type="button" name="" id="limpiar" value="LIMPIAR">
+
+                <input class="buttonCif hover" type="button" value="VOLVER" onclick="history.go(-1);">
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

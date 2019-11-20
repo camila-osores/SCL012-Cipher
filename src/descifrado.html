@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="logo">
+            <h1 class="bordeTexto">SafePass</h1>
+        </div>
+
+        <div class="descifrado">
+            <h2>DESCIFRA TU CLAVE</h2>
+
+            <div>
+                <p class="textComboBox">Indica número de desplazamiento
+                    <div class="comboBox">
+                        <input type="number" id="desplazamiento" min="1" max="10" placeholder="0">
+                    </div>
+                </p>
+            </div>
+            <!-- Text area para ingresar la clave a descifrar  -->
+            <div>
+                <p class="tittleArea">
+                    Ingresa tu clave para descifrar
+                </p>
+
+                <textarea name="area1" id="area1" cols="50" rows="3"></textarea>
+
+                <p class="tittleArea">
+                    Clave descifrada
+                </p>
+
+                <textarea name="" id="area2" cols="50" rows="3"></textarea>
+
+            </div><br>
+
+            <!-- botones -->
+            <div class="buttonsDescifrar">
+
+                <input class="buttonDes hover" type="button" name="" id="descifrar" value="DESCIFRAR">
+
+                <input class="buttonDes hover" type="button" name="" id="limpiar2" value="LIMPIAR">
+
+                <input class="buttonDes hover" type="button" value="VOLVER" onclick="history.go(-1);">
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

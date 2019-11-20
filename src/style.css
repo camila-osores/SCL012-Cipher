@@ -1,1 +1,178 @@
-/* Acá va tu código */
+/* cuerpo web */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+/* Titulo safepass */
+h1 {
+    color: aliceblue;
+    font-size:80px;
+    font-family: 'Source Code Pro', monospace;
+    margin: 0;
+}
+
+/* borde del titulo SafePass */
+.bordeTexto {
+    -webkit-text-stroke: 2px rgb(67, 208, 226);
+    color: transparent;
+}
+
+
+/* subtítulo */
+h2, .info{
+    color: aliceblue;
+    font-size: 26px;
+    font-family: 'Muli', sans-serif;
+}
+
+
+/* parrafo de texto de introducción a la página*/
+.info{
+    
+    font-size: 22px;
+}
+
+/* contenedor  */
+ .container{
+    background: url(./img/back.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+} 
+
+ /* información web */
+ .information{
+    float: left;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+
+/* logo web SafePass */
+.logo{
+    float: left;
+    margin-top: 20%;
+    margin-left: 13%;
+}
+
+/* contenedor de información de cifrado */
+.cifrado{
+    margin-top: 5%;
+    width:30% ;
+    float: right;
+    margin-left: 5%;
+    margin-right: 20%;
+}
+
+/* texto de número de desplazamiento */
+.textComboBox{
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Muli', sans-serif;
+    display: inline;
+}
+
+/* numero de desplazamiento */
+.comboBox{
+    display: inline;
+}
+
+/* Titulos de los textarea */
+.tittleArea{
+    color: aliceblue;
+    font-size: 17px;
+    font-family: 'Muli', sans-serif;
+}
+
+
+  /* botones para cifrar y descifrar*/
+.descifrado, .cifrado{
+    width:30% ;
+    float: right;
+    margin-left: 5%;
+    margin-top:5%;
+    margin-right: 5%;
+}
+
+ .buttonsDescifrar {
+    float: right;
+    margin-right: 40%;
+}
+
+.buttonsCifrar{
+    float: right;
+    margin-right:40%;
+}
+
+
+/* 2 botones descifrar y limpiar, que están en la pantalla para descifrar el mje */
+.buttonDes, .buttonCif{
+    border-radius: 5px;
+    margin-left: 18px;
+    color: #c7dee6;
+    font-size: 15px;
+    font-weight: 500;
+    background: rgba(0,0,0,0);
+    border: 2px solid;
+    border-color: #c7dee6;
+    transition: all 1s ease;
+    position: relative;
+}
+
+/* Efecto al posar el mouse encima del botón */
+.hover{
+    background: none;
+    outline: none;
+    width: 200px;
+    height: 35px;
+    border: none;
+    border: 1px solid rgb(86, 179, 207);
+    transition: all .3s ease-in;
+    display: block;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-radius: 7px;
+    color: rgb(25, 166, 209);
+    font-weight: bold;
+}
+
+/* Botones de inicio que direccionan a cifrado y descifrado */
+.buttonReg{
+    margin-top: 50%;
+    display: block;
+    font-size: 17px;
+}
+
+.buttonIng{
+    font-size: 17px;
+
+}
+.buttonsRegIng{
+    background: rgba(139, 184, 196, 0.3);
+    width: 40%;
+    height: 100vh;
+    float: right;
+    text-align: center;
+    font-size: 15px;
+} 
+
+.hover:hover{
+
+    background: rgb(86, 179, 207);
+    color: white;
+    cursor: pointer;
+}
+
+.textoCifrado{
+    color: white;
+    font-size: 1.2em;
+   transition: all .3s ease;
+}
+
+.boxMessage{
+    padding: 20px 0 20px 0;
+}

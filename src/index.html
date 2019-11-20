@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caesar Cipher</title>
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="information">
+      <h1 class="bordeTexto">SafePass</h1>
+
+      <h2> ¿Quieres que tus claves sean más seguras?</h2>
+
+      <p class="info"> SafePass es una aplicación que te ayudará a obtener una clave más segura para tus
+        contraseñas mediante
+        un tipo de cifrado.
+      </p>
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+
+
+    <div class="buttonsRegIng">
+      <input class="buttonReg hover" type="button" id="reg" value="CIFRAR"
+        onclick="window.open('cifrado.html','_self')">
+      <input class="buttonIng hover" type="button" id="ing" value="DESCIFRAR"
+        onclick="window.open('descifrado.html','_self')">
+    </div>
+
+
+  </div>
+
+
+  <div id="root">
+  </div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
