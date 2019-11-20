@@ -12,8 +12,8 @@ SafePass está dirigida a toda persona que necesite una mayor seguiridad en sus 
 
 ## Prototipo 
 
-![sketch de la aplicación](./src/img/sketch1.jpg "sketch")
-![sketch de la aplicación](./src/img/sketch2.jpg "sketch")
+![sketch de la aplicación](./src/img/s1.jpg "sketch")
+![sketch de la aplicación](./src/img/s2.jpg "sketch")
 
 
 
